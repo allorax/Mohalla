@@ -1,0 +1,7 @@
+{
+  "name": "Mohalla - Neighborhood Quality Reports",
+  "description": "Standardized Neighborhood Quality Reports for homebuyers in Delhi-NCR. Data-driven insights on Environment, Education, Safety, Utilities, and Infrastructure.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

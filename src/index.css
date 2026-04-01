@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  
+  --color-mohalla-blue: #1E40AF;
+  --color-mohalla-green: #10B981;
+  --color-mohalla-yellow: #F59E0B;
+  --color-mohalla-red: #EF4444;
+  --color-mohalla-bg: #F8FAFC;
+  --color-mohalla-card: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply bg-mohalla-bg text-slate-900 font-sans;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm;
+}
+
+.thumb-nav {
+  @apply fixed bottom-0 left-0 right-0 bg-white border-t border-slate-100 px-6 py-3 flex justify-between items-center z-50;
+}
+
